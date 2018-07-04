@@ -18,7 +18,7 @@ When we analyze text, it's useful to extract these base forms. It will enable us
 useful statistics to analyze the input text. Stemming is one way to achieve this. The goal of a
 stemmer is to reduce words in their different forms into a common base form. It is basically
 a heuristic process that cuts off the ends of words to extract their base forms. Let's see how
-to do it using NLTK.
+to do it using NLTK.<br>
 The Porter stemmer is the least in terms of strictness and Lancaster is the strictest. If you
 closely observe the outputs, you will notice the differences. Stemmers behave differently
 when it comes to words like possibly or provision . The stemmed outputs that are
