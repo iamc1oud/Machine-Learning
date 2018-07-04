@@ -1,7 +1,7 @@
 # Libraries Used
 - NLTK
--genism
--pattern
+- genism
+- pattern
 
 # Tokenize Text Data
 When we deal with text, we need to break it down into smaller pieces for analysis. This is
