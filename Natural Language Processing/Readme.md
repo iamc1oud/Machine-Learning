@@ -19,3 +19,9 @@ useful statistics to analyze the input text. Stemming is one way to achieve this
 stemmer is to reduce words in their different forms into a common base form. It is basically
 a heuristic process that cuts off the ends of words to extract their base forms. Let's see how
 to do it using NLTK.
+The Porter stemmer is the least in terms of strictness and Lancaster is the strictest. If you
+closely observe the outputs, you will notice the differences. Stemmers behave differently
+when it comes to words like possibly or provision . The stemmed outputs that are
+obtained from the Lancaster stemmer are a bit obfuscated because it reduces the words a
+lot. At the same time, the algorithm is really fast. A good rule of thumb is to use the
+Snowball stemmer because it's a good trade off between speed and strictness.
