@@ -36,3 +36,12 @@ obtains the base forms by removing the inflectional word endings such as ing or 
 base form of any word is known as the lemma. If you lemmatize the word calves, you
 should get calf as the output. One thing to note is that the output depends on whether the
 word is a verb or a noun.
+
+# Dividing text data into chunks
+Text data usually needs to be divided into pieces for further analysis. This process is known
+as chunking. This is used frequently in text analysis. The conditions that are used to divide
+the text into chunks can vary based on the problem at hand. This is not the same as
+tokenization where we also divide text into pieces.<br> During chunking, we do not adhere to
+any constraints and the output chunks need to be meaningful.
+When we deal with large text documents, it becomes important to divide the text into
+chunks to extract meaningful information.
