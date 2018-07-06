@@ -45,3 +45,15 @@ tokenization where we also divide text into pieces.<br> During chunking, we do n
 any constraints and the output chunks need to be meaningful.
 When we deal with large text documents, it becomes important to divide the text into
 chunks to extract meaningful information.
+
+# Building a category predictor
+A category predictor is used to predict the category to which a given piece of text belongs.
+This is frequently used in text classification to categorize text documents. Search engines
+frequently use this tool to order the search results by relevance. For example, let's say that
+we want to predict whether a given sentence belongs to sports, politics, or science. To do
+this, we build a corpus of data and train an algorithm. This algorithm can then be used for
+inference on unknown data.<br>
+In order to build this predictor, we will use a statistic called TermFrequency – Inverse
+Document Frequency (tf-idf). In a set of documents, we need to understand the importance
+of each word. The tf-idf statistic helps us understand how important a given word is to a
+document in a set of documents.
