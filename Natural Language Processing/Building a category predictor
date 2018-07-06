@@ -1,0 +1,12 @@
+The **Term Frequency (tf)** is basically a measure
+of how frequently each word appears in a given document. Since different documents have
+a different number of words, the exact numbers in the histogram will vary. In order to have
+a level playing field, we need to normalize the histograms. So we divide the count of each
+word by the total number of words in a given document to obtain the term frequency.
+The second part of the statistic is the Inverse Document Frequency (idf), which is a
+measure of how unique a word is to this document in the given set of documents. When we
+compute the term frequency, the assumption is that all the words are equally important. But
+we cannot just rely on the frequency of each word because words like and and the appear a
+lot. To balance the frequencies of these commonly occurring words, we need to reduce their
+weights and weigh up the rare words. This helps us identify words that are unique to each
+document as well, which in turn helps us formulate a distinctive feature vector.
