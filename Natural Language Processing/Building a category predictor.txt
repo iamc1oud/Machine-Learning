@@ -10,3 +10,9 @@ we cannot just rely on the frequency of each word because words like and and the
 lot. To balance the frequencies of these commonly occurring words, we need to reduce their
 weights and weigh up the rare words. This helps us identify words that are unique to each
 document as well, which in turn helps us formulate a distinctive feature vector.
+To compute this statistic, we need to compute the ratio of the number of documents with
+the given word and divide it by the total number of documents. This ratio is essentially the
+fraction of the documents that contain the given word. Inverse document frequency is then
+calculated by taking the negative algorithm of this ratio.
+We then combine term frequency and inverse document frequency to formulate a feature
+vector to categorize documents.
