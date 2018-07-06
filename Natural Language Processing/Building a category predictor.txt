@@ -1,4 +1,4 @@
-The **Term Frequency (tf)** is basically a measure
+The Term Frequency (tf) is basically a measure
 of how frequently each word appears in a given document. Since different documents have
 a different number of words, the exact numbers in the histogram will vary. In order to have
 a level playing field, we need to normalize the histograms. So we divide the count of each
